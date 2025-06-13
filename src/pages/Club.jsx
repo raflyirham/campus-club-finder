@@ -49,7 +49,7 @@ const Club = () => {
         </h1>
       </div>
 
-      <div className="flex flex-row gap-4 max-md:flex-col">
+      <div className="flex flex-row gap-4 max-lg:flex-col">
         <div className="flex flex-col gap-3 bg-white rounded-lg p-4 shadow-md min-w-[500px] max-md:min-w-full max-md:w-full">
           <div className="w-full h-[250px] bg-primary rounded-lg overflow-hidden">
             <img
