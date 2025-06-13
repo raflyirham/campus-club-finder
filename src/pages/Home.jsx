@@ -13,7 +13,7 @@ const Home = () => {
         <div className="flex flex-col gap-5 w-1/2 max-md:w-full max-md:items-center">
           <Chip>🚀 The best platform to find clubs</Chip>
 
-          <h1 className="text-5xl font-bold uppercase max-md:text-3xl max-sm:text-2xl">
+          <h1 className="text-5xl font-bold uppercase max-md:text-3xl max-md:text-center max-sm:text-2xl">
             Find a club <span className="text-primary">you will love</span> to
             join
           </h1>

@@ -7,6 +7,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Clubs from "./pages/Clubs";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Club from "./pages/Club";
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/clubs" element={<Clubs />} />
           <Route path="/clubs/:id" element={<Club />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
